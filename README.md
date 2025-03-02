@@ -20,7 +20,7 @@ mkdir -p pepper_sim_ws/src
 cd pepper_sim_ws/src
 git clone https://github.com/dcuevasa/pepper_robot_noetic
 git clone -b simulation_that_works https://github.com/awesomebytes/pepper_virtual
-git clone[ https://github.com/awesomebytes/gazebo_model_velocity_plugin](https://github.com/dcuevasa/pepper_virtual_noetic)
+git clone https://github.com/dcuevasa/gazebo_model_velocity_plugin_noetic
 # In case you are missing any of these
 sudo apt-get install ros-noetic-tf2-sensor-msgs ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros ros-noetic-gazebo-ros-control ros-noetic-gazebo-plugins ros-noetic-controller-manager ros-noetic-ddynamic-reconfigure-python
 cd ..
