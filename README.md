@@ -1,5 +1,5 @@
 # pepper_virtual_noetic
-This repo is an updated version of [pepper_virtual](https://github.com/awesomebytes/pepper_virtual) for ROS Noetic (no changes to this package in particular)
+This repo is an updated version of [pepper_virtual](https://github.com/awesomebytes/pepper_virtual) for ROS Noetic
 
 ## Dependencies:
 
