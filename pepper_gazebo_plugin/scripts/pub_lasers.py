@@ -172,7 +172,7 @@ class NaoqiLaser(object):
         # self.laserProxy = self.session.service("ALLaser")
         self.memProxy = self.session.service("ALMemory")
         if self.memProxy is None:
-            print "could not start either laser or memory proxy"
+            print("could not start either laser or memory proxy")
             exit(1)
 
     # fetch laser values
