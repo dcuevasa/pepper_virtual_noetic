@@ -249,7 +249,7 @@ class LaserPublisher(object):
 
         # Publishers
         self.all_laser_pub = rospy.Publisher(
-            '/pepper/laser_2', LaserScan, queue_size=1)
+            'laser', LaserScan, queue_size=1)
         self.pc_pub = rospy.Publisher('/cloud', PointCloud2, queue_size=1)
         self.pcl_pub = rospy.Publisher('/cloudl', PointCloud2, queue_size=1)
         self.pcr_pub = rospy.Publisher('/cloudr', PointCloud2, queue_size=1)
