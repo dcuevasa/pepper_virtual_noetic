@@ -55,7 +55,7 @@ pepper:
 
   /gazebo_ros_control:
     pid_gains:
-      HeadYaw: {p: 1000.0, i: 0.01, d: 10.0}
+      HeadYaw: {p: 1000.0, i: 0.01, d: 5.0}
       HeadPitch: {p: 1000.0, i: 0.01, d: 10.0}
       HipRoll: {p: 1000.0, i: 0.01, d: 10.0}
       HipPitch: {p: 1000.0, i: 0.01, d: 10.0}
