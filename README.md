@@ -24,7 +24,7 @@ git clone https://github.com/dcuevasa/gazebo_model_velocity_plugin_noetic
 git clone https://github.com/SinfonIAUniandes/robot_toolkit_msgs.git
 # In case you are missing any of these
 sudo apt-get update
-sudo apt-get install ros-noetic-tf2-sensor-msgs ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros ros-noetic-gazebo-ros-control ros-noetic-gazebo-plugins ros-noetic-controller-manager ros-noetic-ddynamic-reconfigure-python
+sudo apt-get install ros-noetic-tf2-sensor-msgs ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros ros-noetic-gazebo-ros-control ros-noetic-gazebo-plugins ros-noetic-controller-manager ros-noetic-ddynamic-reconfigure-python ros-noetic-pepper-meshes
 cd ..
 catkin_make
 source devel/setup.bash
