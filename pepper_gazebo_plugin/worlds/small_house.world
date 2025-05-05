@@ -224,7 +224,7 @@
         <include>
             <uri>model://aws_robomaker_residential_CoffeeTable_01</uri>
         </include>
-        <pose frame=''>1.512301 -1.733438 0.041983 0.000000 0.000000 0.01000</pose>
+        <pose frame=''>1.512301 -1.733438 0.000000 0.000000 0.000000 0.01000</pose>
 	</model>
 	<model name='CookingBench_01_001'>
         <include>
@@ -573,7 +573,7 @@
         <include>
             <uri>model://aws_robomaker_residential_SofaC_01</uri>
         </include>
-        <pose frame=''>0.330699 -1.902792 0.065992 0.000000 0.000000 1.571733</pose>
+        <pose frame=''>0.330699 -1.902792 0.000000 0.000000 0.000000 1.571733</pose>
 	</model>
 	<model name='Tableware_01_001'>
         <static>true</static>    
