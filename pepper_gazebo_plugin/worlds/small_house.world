@@ -562,6 +562,14 @@
         </include>
         <pose frame=''>8.702731 -1.032031 0 0 -0 -1.563499</pose>
 	</model>
+	<model name='citizen_extras_female_03'>
+        <static>true</static>    
+        <include>
+        <name>female03</name>
+        <uri>model://citizen_extras_female_03</uri>
+        <pose>7 -1.032031 0 0 0 0</pose>
+        </include>
+	</model>
 	<model name='SeasoningBox_01_001'>
         <static>true</static>    
         <include>
