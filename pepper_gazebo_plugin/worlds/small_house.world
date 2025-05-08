@@ -103,6 +103,14 @@
         </include>
         <pose frame=''>2.779073 -5.392703 1.538173 0 -0 0</pose>
 	</model>
+	<model name='citizen_extras_male_03'>
+        <static>true</static>    
+        <include>
+        <name>male03</name>
+        <uri>model://citizen_extras_male_03</uri>
+        <pose>-4.6 2.1 0 0 0 0</pose>
+        </include>
+	</model>
 	
     <!-- Remove ceiling for easier view
 	<model name='RoomCeiling_01_001'>
