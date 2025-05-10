@@ -57,6 +57,15 @@
         <pose frame=''>3.295503 4.225674 0.318684 0 -0 0</pose>
 	</model>
     
+	<model name='citizen_extras_male_04'>
+        <static>true</static>    
+        <include>
+        <name>male04</name>
+        <uri>model://citizen_extras_male_03</uri>
+        <pose>3.3 2.27 0 0 0 0</pose>
+        </include>
+	</model>
+    
     <!-- quick test ball for turtlebot3 -->
     <!-- 
 	<model name='Ball_01_002'>
@@ -590,6 +599,15 @@
             <uri>model://aws_robomaker_residential_SofaC_01</uri>
         </include>
         <pose frame=''>0.330699 -1.902792 0.000000 0.000000 0.000000 1.571733</pose>
+	</model>
+    
+	<model name='citizen_extras_female_04'>
+        <static>true</static>    
+        <include>
+        <name>female04</name>
+        <uri>model://citizen_extras_female_02</uri>
+        <pose frame=''>0.2 -1.733438 0 0 0 3.13</pose>
+        </include>
 	</model>
 	<model name='Tableware_01_001'>
         <static>true</static>    
